@@ -6,5 +6,9 @@ print("Seu nome é "+nome," sua idade é de "+idade, " seu peso é de "+peso)
 verific=input("Correto? ")
 if verific=='sim':
         print('Bem Vinda: '+nome)
-else:
+elif verific=='não':
         print('Informe seus dados novamente :')
+else:
+        verific=='null'
+        print('Informe seus dados novamente :')
+
